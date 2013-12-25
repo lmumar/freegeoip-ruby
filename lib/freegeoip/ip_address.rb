@@ -3,7 +3,7 @@ module Freegeoip
   class IpAddress < String
 
     def loopback?
-      valid? and (self == "0.0.0.0" or self.match(/\A127\./))
+      valid? && (self == "0.0.0.0" || !self.match(/\A127\./).nil?)
     end
 
     def valid?
