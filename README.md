@@ -22,7 +22,7 @@ Or install it yourself as:
 
 Include the following code in config/initializer/freegeoip.rb
 
-    Freegeoip.setup :host => '127.0.0.01', :port => '8080', :protocol => 'http'
+    Freegeoip.setup :host => '127.0.0.1', :port => '8080', :protocol => 'http'
 
 Or if the above settings is true to your setup just write the code
 below:
