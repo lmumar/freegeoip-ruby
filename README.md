@@ -1,3 +1,5 @@
+# NOTICE: THIS IS NO LONGER MAINTAINED. PLEASE LOOK FOR ANOTHER GEM.
+
 # Freegeoip
 
 Freegeoip is a library for accessing freegeoip.net API simply in Ruby.
